@@ -14,10 +14,10 @@ Realização de três consultas usando ORM, sendo duas envolvendo relacionamento
 Tecnologias Utilizadas
 
 Python 3.8 ou superior
-SQLAlchemy (ORM)
-PostgreSQL (banco de dados)
-Psycopg2 (driver de conexão)
-Google Colab (execução e registro das etapas)
+-SQLAlchemy (ORM)
+-PostgreSQL (banco de dados)
+-Psycopg2 (driver de conexão)
+-Google Colab (execução e registro das etapas)
 
 Estrutura do Projeto
 
@@ -79,6 +79,7 @@ O projeto atende a todos os requisitos do enunciado: configuração, mapeamento,
 Autoria
 
 Este projeto foi desenvolvido por José Ivan Simão da Silva, matrícula 2023011724, como parte da disciplina ADS0011 – Projeto de Banco de Dados da Universidade Federal do Cariri (UFCA). É um trabalho acadêmico e pode ser usado como referência, desde que os créditos sejam mantidos.
+
 
 
 
