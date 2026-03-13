@@ -13,7 +13,7 @@ Realização de três consultas usando ORM, sendo duas envolvendo relacionamento
 
 Tecnologias Utilizadas
 
-Python 3.8 ou superior
+- Python 3.8 ou superior
 - SQLAlchemy (ORM)
 - PostgreSQL (banco de dados)
 - Psycopg2 (driver de conexão)
