@@ -26,6 +26,7 @@ Psycopg2 (driver de conexão)
 Google Colab (execução e registro das etapas)
 
 Estrutura do Projeto
+
 A estrutura do projeto está organizada da seguinte forma:
 
 Na raiz:
@@ -43,6 +44,7 @@ scripts/ – contém o arquivo schema.sql, que é o script DDL e DML da atividad
 screenshots/ – contém as imagens que comprovam a execução de cada etapa
 
 Como Executar o Projeto
+
 Pré-requisitos
 Python 3.8 ou superior instalado
 
@@ -55,27 +57,34 @@ Clone o repositório:
 git clone https://github.com/ivanwdesigner/projeto-final-7-SistemaDeReservaDeHotel.git
 
 Acesse a pasta criada:
+
 cd projeto-final-7-SistemaDeReservaDeHotel
 
 Crie e ative um ambiente virtual:
+
 python -m venv venv
 source venv/bin/activate (no Linux/Mac)
 venv\Scripts\activate (no Windows)
 
 Instale as dependências:
+
 pip install -r requirements.txt
 
 Configure a conexão com o banco:
+
 Edite a variável DATABASE_URL no início do notebook, informando usuário, senha, host e nome do banco.
 
 Execute o notebook:
+
 Abra o arquivo Projeto_Final_7_ORM_acessando_o_banco_criado.ipynb no Jupyter, VS Code ou Google Colab e execute as células sequencialmente.
 Caso o banco já exista, pule a célula que recria as tabelas. Caso contrário, execute-a normalmente.
 
 Evidências de Funcionamento
+
 As evidências de funcionamento estão disponíveis na pasta screenshots, contendo todos os prints das operações realizadas: criação, listagem, atualização, remoção e consultas com relacionamento.
 
 Observações Importantes
+
 O banco utilizado é exatamente o mesmo da atividade 6, mantendo a estrutura original.
 
 Todas as operações foram feitas via ORM, sem SQL manual, incluindo as consultas com JOIN que usaram o método join do SQLAlchemy.
@@ -85,5 +94,7 @@ A integridade referencial foi respeitada, conforme demonstrado na tentativa de e
 O projeto atende a todos os requisitos do enunciado: configuração, mapeamento, CRUD, consultas com relacionamento e evidências de funcionamento.
 
 Autoria
+
 Este projeto foi desenvolvido por José Ivan Simão da Silva, matrícula 2023011724, como parte da disciplina ADS0011 – Projeto de Banco de Dados da Universidade Federal do Cariri (UFCA). É um trabalho acadêmico e pode ser usado como referência, desde que os créditos sejam mantidos.
+
 
