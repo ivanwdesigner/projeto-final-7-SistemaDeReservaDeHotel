@@ -1,10 +1,10 @@
 PROJETO FINAL 7 – SISTEMA DE RESERVAS DE HOTEL COM ORM
 
-1. Introdução
+Introdução
    
 Este é o projeto final da disciplina ADS0011 – Projeto de Banco de Dados da Universidade Federal do Cariri (UFCA). O objetivo foi conectar o banco PostgreSQL criado na atividade 6, que é um sistema de reservas de hotel, a uma aplicação Python usando SQLAlchemy ORM. Foram realizadas operações CRUD e consultas com relacionamentos, sem escrever SQL manualmente.
 
-3. Objetivos Atingidos
+Objetivos Atingidos
    
 Mapeamento ORM de todas as tabelas principais: Configuração, TipoQuarto, Quarto, Hospede, Reserva, Temporada, Diaria, HistoricoReserva, Adicional, Pagamento e BloqueioQuarto.
 
@@ -14,7 +14,7 @@ Execução das operações CRUD com inserção de pelo menos três registros em 
 
 Realização de três consultas usando ORM, sendo duas envolvendo relacionamentos com JOIN e uma com filtro e ordenação.
 
-3. Tecnologias Utilizadas
+Tecnologias Utilizadas
 Python 3.8 ou superior
 
 SQLAlchemy (ORM)
@@ -25,7 +25,7 @@ Psycopg2 (driver de conexão)
 
 Google Colab (execução e registro das etapas)
 
-4. Estrutura do Projeto
+Estrutura do Projeto
 A estrutura do projeto está organizada da seguinte forma:
 
 Na raiz:
@@ -42,7 +42,7 @@ scripts/ – contém o arquivo schema.sql, que é o script DDL e DML da atividad
 
 screenshots/ – contém as imagens que comprovam a execução de cada etapa
 
-5. Como Executar o Projeto
+Como Executar o Projeto
 Pré-requisitos
 Python 3.8 ou superior instalado
 
@@ -72,10 +72,10 @@ Execute o notebook:
 Abra o arquivo Projeto_Final_7_ORM_acessando_o_banco_criado.ipynb no Jupyter, VS Code ou Google Colab e execute as células sequencialmente.
 Caso o banco já exista, pule a célula que recria as tabelas. Caso contrário, execute-a normalmente.
 
-6. Evidências de Funcionamento
+Evidências de Funcionamento
 As evidências de funcionamento estão disponíveis na pasta screenshots, contendo todos os prints das operações realizadas: criação, listagem, atualização, remoção e consultas com relacionamento.
 
-7. Observações Importantes
+Observações Importantes
 O banco utilizado é exatamente o mesmo da atividade 6, mantendo a estrutura original.
 
 Todas as operações foram feitas via ORM, sem SQL manual, incluindo as consultas com JOIN que usaram o método join do SQLAlchemy.
@@ -84,6 +84,6 @@ A integridade referencial foi respeitada, conforme demonstrado na tentativa de e
 
 O projeto atende a todos os requisitos do enunciado: configuração, mapeamento, CRUD, consultas com relacionamento e evidências de funcionamento.
 
-8. Autoria
-
+Autoria
 Este projeto foi desenvolvido por José Ivan Simão da Silva, matrícula 2023011724, como parte da disciplina ADS0011 – Projeto de Banco de Dados da Universidade Federal do Cariri (UFCA). É um trabalho acadêmico e pode ser usado como referência, desde que os créditos sejam mantidos.
+
