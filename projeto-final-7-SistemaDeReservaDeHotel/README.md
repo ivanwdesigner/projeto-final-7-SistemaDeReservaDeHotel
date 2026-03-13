@@ -1,9 +1,11 @@
 PROJETO FINAL 7 – SISTEMA DE RESERVAS DE HOTEL COM ORM
 
 1. Introdução
+   
 Este é o projeto final da disciplina ADS0011 – Projeto de Banco de Dados da Universidade Federal do Cariri (UFCA). O objetivo foi conectar o banco PostgreSQL criado na atividade 6, que é um sistema de reservas de hotel, a uma aplicação Python usando SQLAlchemy ORM. Foram realizadas operações CRUD e consultas com relacionamentos, sem escrever SQL manualmente.
 
-2. Objetivos Atingidos
+3. Objetivos Atingidos
+   
 Mapeamento ORM de todas as tabelas principais: Configuração, TipoQuarto, Quarto, Hospede, Reserva, Temporada, Diaria, HistoricoReserva, Adicional, Pagamento e BloqueioQuarto.
 
 Implementação correta dos relacionamentos 1:N e N:1, respeitando o modelo lógico.
@@ -83,4 +85,5 @@ A integridade referencial foi respeitada, conforme demonstrado na tentativa de e
 O projeto atende a todos os requisitos do enunciado: configuração, mapeamento, CRUD, consultas com relacionamento e evidências de funcionamento.
 
 8. Autoria
+
 Este projeto foi desenvolvido por José Ivan Simão da Silva, matrícula 2023011724, como parte da disciplina ADS0011 – Projeto de Banco de Dados da Universidade Federal do Cariri (UFCA). É um trabalho acadêmico e pode ser usado como referência, desde que os créditos sejam mantidos.
